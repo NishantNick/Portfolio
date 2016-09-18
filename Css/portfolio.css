@@ -1,0 +1,10 @@
+﻿.professionalProjects{
+    overflow:hidden;
+    height:205px;
+    margin-bottom: 10px;
+}
+
+.contentAlignment{
+    text-align:justify;
+    text-justify: auto
+}

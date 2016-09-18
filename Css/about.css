@@ -1,0 +1,73 @@
+﻿
+/*#aboutme_dp {
+    content : url(../Images/About_background_mirror.png);
+    padding: 0px 10px 0px 10px;
+}*/
+
+#about_background{
+    background: linear-gradient(
+      rgba(0,0,0,0.8), 
+      rgba(0,0,0,0.8)
+    ),
+         url(../Images/About_background.jpg);
+    background-repeat : no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+#about_intro{
+   color:white;
+}
+
+
+
+
+
+/* Global Button Styles */
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	
+	letter-spacing: .08em;
+	border-radius: 0;
+}
+
+
+
+/* Victoria Buttons */
+
+a.animated-button.thar-two {
+	
+	cursor: pointer;
+	display: block;
+	position: relative;
+	border: 2px solid #F7CA18;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+a.animated-button.thar-two:hover {
+
+	background-color: transparent;
+	
+}
+a.animated-button.thar-two:hover:before {
+	top: 0%;
+	bottom: auto;
+	height: 100%;
+}
+a.animated-button.thar-two:before {
+	display: block;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	height: 0px;
+	width: 100%;
+	z-index: -1;
+	content: '';
+
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}

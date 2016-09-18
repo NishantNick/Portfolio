@@ -1,0 +1,38 @@
+﻿<link href="../Css/about.css" rel="stylesheet" />
+<div>
+    <div class="row" id="about_background" style="height:500px;">
+        <div class="col-xs-12 col-sm-6" style="padding-top:50px;text-align:center;" >
+            <img src="../Images/about_intro_background.jpg" class="img-circle" alt="Nishant Sharma" width="200" height="200">
+            <div>
+                 <a id="getintouch" href="#" class="btn btn-sm animated-button thar-two" style="width:150px;">GET IN TOUCH</a>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 intouchitems" style="display:none">
+                    <div style="text-align:center; padding-top:10px;">
+                        <a href="http://www.facebook.com/Nick.NishantSharma" target="_blank" class="img-circle facebook"  title="connect with me!"></a>
+                        <a href="http://plus.ly/nick.nishantsharma" target="_blank" class="img-circle googleplus"  title="connect with me!"></a>
+                        <a href="mailto:nishant.sharma@metacube.com" class="img-circle email" title="Email Me!"></a>
+</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6" style="text-align:center; padding-top:50px;" id="about_intro">
+                <h2>Hola, I'm Nishant</h2>
+                <p>
+                    I love Coding!
+                    <br><br>
+
+                    <b>Present:</b> Currently i am SOFTWARE ENGINEER at Metacube Software Pvt.Ltd. having experience of 2 years in enterprise application development using .net<br>
+                    and web technologies.
+                </p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#getintouch').click(function () {
+            $('.intouchitems').slideToggle("fast");
+        });
+    });
+</script>

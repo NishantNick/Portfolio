@@ -1,0 +1,34 @@
+﻿.facebook{
+    background-image : url('../Images/facebook_logo.png');
+    background-size : contain;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin-right:20px;
+  
+}
+
+.googleplus{
+    background: url('../Images/googleplus_logo.jpg') no-repeat ;
+    background-size : contain;
+    height: 38px;
+    width: 38px;
+    display: inline-block;
+    margin-right:20px;
+}
+
+.github{
+     background: url('../Images/github_logo.png') no-repeat ;
+     background-size : contain;
+    height: 40px;
+    width: 40px;
+    display: inline-block;  
+}
+
+.email{
+    background: url('../Images/mail_img.jpg') no-repeat ;
+     background-size : contain;
+    height: 40px;
+    width: 40px;
+    display: inline-block;  
+}
