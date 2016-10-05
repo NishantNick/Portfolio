@@ -36,3 +36,16 @@ $('#nbBtn').on('click', function () {
         $('#nbChild').addClass('professionalProjects');
     }
 });
+
+$('#watersProjBtn').on('click', function () {
+
+    if ($('#watersProjBtn').text() == 'More Details') {
+        $('#watersProjParent').removeClass().addClass('col-xs-12');
+        $('#watersprojChild').removeClass('professionalProjects');
+        $('#watersProjBtn').text('Less Details');
+    } else {
+        $('#watersProjParent').removeClass().addClass('col-xs-12 col-sm-6 col-md-4');
+        $('#watersProjBtn').text('More Details');
+        $('#watersprojChild').addClass('professionalProjects');
+    }
+});

@@ -1,6 +1,6 @@
 ﻿<link href="../Css/about.css" rel="stylesheet" />
 <div>
-    <div class="row" id="about_background" style="height:500px;">
+    <div class="row" id="about_background" >
         <div class="col-xs-12 col-sm-6" style="padding-top:50px;text-align:center;" >
             <img src="../Images/about_intro_background.jpg" class="img-circle" alt="Nishant Sharma" width="200" height="200">
             <div>
@@ -31,6 +31,8 @@
 
 <script type="text/javascript">
     $(document).ready(function () {
+        
+        $('#about_background').css('height',window.innerHeight);
         $('#getintouch').click(function () {
             $('.intouchitems').slideToggle("fast");
         });
